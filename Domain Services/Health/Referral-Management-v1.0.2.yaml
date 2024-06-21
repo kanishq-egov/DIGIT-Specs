@@ -492,11 +492,11 @@ paths:
           required: true
           schema:
             $ref: 'https://raw.githubusercontent.com/egovernments/DIGIT-Specs/master/Domain%20Services/Health/common/health-services-models-1.0.20.yaml#/components/schemas/HFReferralSearchRequest'
-        - $ref: '#/parameters/limit'
-        - $ref: '#/parameters/offset'
-        - $ref: '#/parameters/tenantId'
-        - $ref: '#/parameters/lastChangedSince'
-        - $ref: '#/parameters/includeDeleted'
+        - $ref: 'https://raw.githubusercontent.com/egovernments/DIGIT-Specs/master/Domain%20Services/Health/common/health-services-models-1.0.20.yaml#/components/schemas/UrlParams/properties/limit'
+        - $ref: 'https://raw.githubusercontent.com/egovernments/DIGIT-Specs/master/Domain%20Services/Health/common/health-services-models-1.0.20.yaml#/components/schemas/UrlParams/properties/offset'
+        - $ref: 'https://raw.githubusercontent.com/egovernments/DIGIT-Specs/master/Domain%20Services/Health/common/health-services-models-1.0.20.yaml#/components/schemas/UrlParams/properties/tenantId'
+        - $ref: 'https://raw.githubusercontent.com/egovernments/DIGIT-Specs/master/Domain%20Services/Health/common/health-services-models-1.0.20.yaml#/components/schemas/UrlParams/properties/lastChangedSince'
+        - $ref: 'https://raw.githubusercontent.com/egovernments/DIGIT-Specs/master/Domain%20Services/Health/common/health-services-models-1.0.20.yaml#/components/schemas/UrlParams/properties/includeDeleted'
       tags:
         - HFReferral
       responses:
